@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="1999/xhtml/index.html">
 	<head>
-		<title>Log Lenovo Warranty</title>
+		<title>Log JB-HiFi Warranty</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="SHORTCUT ICON" href="favicon.ico"/>
 	</head>
@@ -12,7 +12,7 @@
 		<div class="content" style="width: <?php echo$x*250;?>px;">
 			<div class="content-holder">
 				<div id="close"><a href="login.php?logout" onclick="if (!confirm('Do you want to logout?')) return false;"><img src="css/images/close.png" name="close" alt="Close" /></a></div>
-				<h1>Lenovo Warranty</h1>
+				<h1>JB-HiFi Warranty</h1>
 				<div class="group">
 					<div class="form">
 						<table class="tg">

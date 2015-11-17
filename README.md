@@ -1,5 +1,7 @@
 ## JB-HiFi Warranty Application
 
+![Index](http://i.imgur.com/4NO6fPY.png)
+
 #### About:
 This is a php web application to submit warrantys to JB-HiFi.
 I reverse engineered the source from their own [online portal](https://portal.nn.net.au/warranty/warrantyreq.php) to create an easier to use interface.
@@ -31,7 +33,6 @@ You can now delete the example model.
 To submit a job, from the main index click on the model you wish to log a job for.
 Input the device serial, select the main component that is likely to be replaced and then a brief description of the warranntable issue.
 Press submit and the job will be sent to JB-HiFi. The next page you see will have the job ID for tracking.
-
 
 #### Support:
 **Please direct all your questions to the GitHub issue tracker:** 
