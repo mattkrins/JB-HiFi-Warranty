@@ -1,0 +1,235 @@
+* {box-sizing: border-box;}
+*:focus {outline: none;}
+body {
+	font-family: Arial;
+	background-color: #000;
+	background: #fff url(images/black-Linen.png) repeat;
+	padding: 50px;
+}
+a {
+	color: #444;
+}
+h1,h2,h3,h4,h5 {
+	font-weight: 300;
+	font-size: 28px;
+	line-height:34px;
+	color: #414848;
+	text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 20px;
+
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 12px;
+}
+.content {
+	margin: 20px auto;
+	width: 300px;
+	-moz-animation: fadein 1s;
+	-webkit-animation: fadein 1s;
+	-o-animation: fadein 1s;
+}
+.content-holder {
+	background-color: #FFF;
+	background: #fff url(images/whitediamond.png) repeat;
+	padding: 20px;
+	border-radius: 5px
+}
+
+.form {
+	text-align: center;
+}
+.group {
+	margin-bottom: 10px;
+}
+
+input, textarea, select {
+	text-align: center;
+	background-color: #ECF0F1;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 200;
+	padding: 10px 0;
+	width: 250px;
+	transition: border .5s;
+	font-family: Arial;
+	line-height: 25px;
+}
+
+input[type=checkbox].checkbox {
+position:absolute;
+z-index:-1000;
+left:-1000px;
+overflow: hidden;
+clip: rect(0 0 0 0);
+height:1px;
+width:1px;
+margin:-1px;
+padding:0;
+border:0;
+}
+						
+input[type=checkbox].checkbox + label.css-label {
+padding-left:65px;
+height:50px; 
+display:inline-block;
+line-height:50px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:18px;
+color: #99A8A8;
+vertical-align:middle;
+cursor:pointer;
+}
+
+input[type=checkbox].checkbox:checked + label.css-label {
+background-position: 0 -50px;
+}
+
+label.css-label {
+background-image:url(images/checkbox.png);
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.error, .success {
+	color:red;
+	background-color: #EDD7D7;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	padding: 5px 0;
+	transition: border .5s;
+	line-height: 25px;
+}
+.success {
+	color:green;
+	background-color: #D7EAD5;
+}
+
+input:focus, textarea:focus, select:focus {
+	border: 2px solid #3498DB;
+	box-shadow: none;
+}
+
+.findjob {
+	width: 200px;
+	margin-right: 10px;
+}
+
+.btn {
+	border: 2px solid transparent;
+	background: #3498DB;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	text-decoration: none;
+	text-shadow: none;
+	border-radius: 3px;
+	box-shadow: none;
+	transition: 0.25s;
+	display: block;
+	width: 250px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.btnl {
+	display: inline;
+	width: 200px;
+}
+
+.alt {
+	background: #D13434;
+}
+.alt2 {
+	background: #8833CE;
+}
+
+
+.btn:hover {
+	background-color: #2980B9;
+}
+
+.alt:hover {
+	background-color: #B72A2A;
+}
+
+.alt2:hover {
+	background-color: #862AB7;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;width:100%;}
+
+#close {
+	position: static;
+	margin:-20px;
+	text-align: right;
+}
+
+#close:hover {
+	opacity: 0.7;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	transition: 0.2s;
+}
+
+
+@keyframes fadein {
+ /* Everything else */
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadein {
+ /* Firefox */
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadein {
+ /* Safari and Chrome */
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadein {
+ /* Opera */
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
